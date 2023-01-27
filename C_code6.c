@@ -6,19 +6,19 @@ void main()
     double num1, num2, result;
     char operation;
   
-    printf("Enter first number: ");
-    scanf("%lf", &num1);
+    printf("Enter a number: ");   // input for the first number
+    scanf("%lf", &num1); 
 
-    printf("Enter an operation : +, -, *, /, s for sin, c for cos, t for tan, e for exponential\n(sine,cos and tan are calculated in radians)\n(for exponential, second number is taken as the power)\n =>");
+    printf("Enter an operation : +, -, *, /, s for sin, c for cos, t for tan, e for exponential\n(sine,cos and tan are calculated in radians)\n(for exponential, second number is taken as the power)\n =>");  // operation input by the user 
     scanf(" %c", &operation);
     
-    if(operation== '+'||operation== '-'||operation== '/'||operation== '+'||operation=='*'||operation=='e')
+    if(operation== '+'||operation== '-'||operation== '/'||operation== '+'||operation=='*'||operation=='e')    //operations that require a second number
     {
-      printf("Enter second number: ");
+      printf("Enter oprend number: ");
       scanf("%lf", &num2);
     }
 
-    switch (operation) 
+    switch (operation)  // switch case used for each operation as input by user 
     {
         case '+':
         {
