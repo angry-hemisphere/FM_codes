@@ -10,5 +10,5 @@ void main() {
     {
         scanf("%d", &array[i]);
     }
-    printf("The size of the array is: %d\n", size);
+    printf("The size of the array is: %d\n", sizeof(array);
 }
