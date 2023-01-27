@@ -7,7 +7,8 @@ void main()
     gets(S);
     while(S[s]!='\0')
     {
-        if(S[s]=='a'||S[s]=='A'||S[s]=='e'||S[s]=='E'||S[s]=='i'||S[s]=='I'||S[s]=='o'||S[s]=='O'||S[s]=='u'||S[s]=='U')
+        if(S[s]=='a'||S[s]=='A'||S[s]=='e'||S[s]=='E'||S[s]=='i'||S[s]=='I'||
+        S[s]=='o'||S[s]=='O'||S[s]=='u'||S[s]=='U')
         {
             k++;
         }
