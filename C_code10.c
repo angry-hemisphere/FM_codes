@@ -5,7 +5,7 @@ void main()
     int mat[4][4];
     int i,j,sum=0,sumd1=0,sumd2=0;
     
-    printf("Enter the elements of a 4x4 matix: \n");
+    printf("Enter the elements of a 4x4 matix: \n"); //user input elements of a 4x4 matrix 
     for( i = 0; i < 4; i++) 
     {
         for(j=0;j<4;j++)
@@ -14,7 +14,7 @@ void main()
         }
     }
     
-    for( i = 0; i < 4; i++) 
+    for( i = 0; i < 4; i++) // loop for sum of all elements 
     {
         for(j=0;j<4;j++)
         {
@@ -22,13 +22,13 @@ void main()
         }
     }
     
-    for( i = 0; i < 4; i++) 
+    for( i = 0; i < 4; i++) //loop for sum of diagonals 
     {
-        sumd1+= mat[i][i];
-        sumd2+=mat[i][3-i];
+        sumd1+= mat[i][i]; // sum of main diagonal 
+        sumd2+=mat[i][3-i];// sum of second diagonal 
     }
     
-    printf("the given matrix:\n");
+    printf("the given matrix:\n"); // user input matrix printed 
     for( i = 0; i < 4; i++) 
     {
         for(j=0;j<4;j++)
