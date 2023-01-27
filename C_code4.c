@@ -8,7 +8,7 @@ void main()
     while(S[s]!='\0')
     {
         if(S[s]=='a'||S[s]=='A'||S[s]=='e'||S[s]=='E'||S[s]=='i'||S[s]=='I'||
-        S[s]=='o'||S[s]=='O'||S[s]=='u'||S[s]=='U')
+        S[s]=='o'||S[s]=='O'||S[s]=='u'||S[s]=='U')              //Finding vowels in a string
         {
             k++;
         }
