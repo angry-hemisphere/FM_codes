@@ -3,14 +3,14 @@ void main()
 {
     char S[100];
     int len,i,flag=0;
-    printf("enter a word:");
+    printf("enter a word:"); // user input string
     gets(S);
-    len = strlen(S);
-    for(i=0;i<=len/2;i++)
+    len = strlen(S);   // number of charecters in a string 
+    for(i=0;i<=len/2;i++) // loop till half of the string 
     {
-        if(S[i]!=S[len-i-1])
+        if(S[i]!=S[len-i-1]) // to compare if corresponding charecters are same 
         {
-            flag=1;
+            flag=1;  
             break;
         }
     }
