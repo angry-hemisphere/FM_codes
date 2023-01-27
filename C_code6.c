@@ -78,7 +78,7 @@ void main()
         default:
         {
             printf("Error: Invalid operator\n");
-        }
+         }
     }
     
 }
