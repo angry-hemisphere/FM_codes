@@ -5,25 +5,25 @@ void main()
     int k,n,i,j,temp,minIndex;
     char op;
     
-    printf("\nenter b for bubble sort and s for selection sort :\n");
+    printf("\nenter b for bubble sort and s for selection sort :\n"); //User input for type of sorting
     scanf("%c", &op);
     
-    printf("Enter the size of the array:\n");
+    printf("Enter the size of the array:\n");  //user input array size
     scanf("%d", &n);
 
     int arr[n];
-    printf("Enter the elements of the array:\n");
+    printf("Enter the elements of the array:\n");  //user input for elements of the array
     for (k = 0; k < n; k++) 
     {
        scanf("%d", &arr[k]);
     }
-   printf("Original array: \n");
+   printf("Original array: \n");    //input array printed
     for (int k=0; k < n; k++)
     {
         printf("%d ", arr[k]);
     }
 
-    if(op=='b')
+    if(op=='b')                             //Bubble Sort
     {
        for (i = 0; i < n-1; i++) 
       {
@@ -46,7 +46,7 @@ void main()
     }
     }
     
-    if(op=='s')
+    if(op=='s')                               //Selection Sort
     {
     for (i = 0; i < n-1; i++) 
     {
@@ -67,7 +67,7 @@ void main()
     }
     }
     
-    else
+    else                                 //for command other that s or b
     {
         printf("\ninvalid command");
     }
