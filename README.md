@@ -21,4 +21,4 @@ There are 10 codes in this repository named as C_code(question no., each for the
 8. Do the Q5 again by implementing the bubble sort algorithm in a separate function.
 9. Take an Array from the user and print the size of the array.
 10. Take each element of the 4x4 matrix from the user and print it, then add each element
-    from the 2D matrix and print the sum, print the sum of both the diagon
+    from the 2D matrix and print the sum, print the sum of both the diagonals
