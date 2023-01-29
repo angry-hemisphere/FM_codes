@@ -1,5 +1,5 @@
 # FM_codes
-There are 10 codes in this repository named as C_code(question no., each for the given 10 questions 
+There are 10 codes in this repository named as C_code(question no.), each for the given 10 questions 
 1. Print the following output.
     *
     **
