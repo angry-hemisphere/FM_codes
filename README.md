@@ -1,11 +1,11 @@
 # FM_codes
-There are 10 codes in this repository named as C, each for the given 10 questions 
+There are 10 codes in this repository named as C_code(question no., each for the given 10 questions 
 1. Print the following output.
-     *
-     **
-     ***
-     ****
-     *****
+    *
+    **
+    ***
+    ****
+    *****
 2. Take a String, integer, char, double input from user and print it.
 3. Print the sequence shown in Q1 but the number of rows should be decided by the user.
 4. Take a String input and count the number of vowels in it.
